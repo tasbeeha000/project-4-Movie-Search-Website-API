@@ -18,8 +18,6 @@
 
 <h2>OverView</h2>
 
-<br>
-
 <h3>How its Work?</h3>
 <br>
 
@@ -33,21 +31,11 @@ https://github.com/tasbeeha000/project-4-Movie-Search-Website-API/assets/1376527
 <br>
 
 ![mwMobheropage](https://github.com/tasbeeha000/project-4-Movie-Search-Website-API/assets/137652796/f9dad447-343f-4cc0-9198-7202c09249f5)
-
-
 ![mvMobSearchsec](https://github.com/tasbeeha000/project-4-Movie-Search-Website-API/assets/137652796/e45b4365-4c5d-4029-9e64-553f20a24876)
-
 <br>
 
 ![mwMobFooter](https://github.com/tasbeeha000/project-4-Movie-Search-Website-API/assets/137652796/20eb10d7-8fba-4844-b0c1-447446696273)
-
-
-
-
 <br>
-
-
-
 
 <h3>Laptop View</h3>
 
