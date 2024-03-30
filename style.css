@@ -1,0 +1,300 @@
+
+@font-face {
+    font-family: roboto-med;
+    src: url(fonts/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: roboto-light;
+    src: url(fonts/Roboto-Light.ttf);
+}
+body{
+    font-family: roboto-med;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+}
+
+.section-padding{
+    padding-top:30px ;
+}
+.navbar{
+ background-color: #ffffff;
+ border: 2px solid rgb(194, 71, 243);
+
+}
+/* hero page */
+#hero-section{
+    color: white;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.carousel-item {
+    max-height: 480px; 
+    width: 100%;
+
+
+}
+.carousel-item img {
+width: 100%;
+max-height: 480px; 
+object-fit: fill;
+border: 2px solid white;
+
+}
+
+
+
+
+.left-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+}
+
+.hero-heading h1{
+  
+    text-align: left;
+    font-size: 45px;
+}
+.explore-btn{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 7px 15px;
+    cursor: pointer
+    ;
+   
+    transition: all 0.3s;
+    
+
+}
+.explore-btn:hover{
+    background-color: white;
+    color: #7225C1;
+}
+
+/* movie seacrh section */
+.Movie-info{
+background-color: #6A24B2;
+    color: rgb(0, 0, 0);
+    border-radius: 34px;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow:  15px 15px 36px #929292,
+                 -15px -15px 36px #ffffff;
+              
+}
+
+#movie-poster{
+    max-width: 100%; 
+    height: auto;
+   
+    border: 1px solid #a19fa4;
+    border-radius: 30px;
+}
+#poster{
+    border-radius: 30px;
+    object-fit: fill;
+    width: 100%; 
+    max-height: 345px; 
+    padding: 8px;
+
+}
+.card-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 14px;
+
+    font-family: roboto-med;
+    
+}
+#movieTitle{
+    font-size: 20px;
+    font-family: roboto-med;
+}
+#plot{
+    font-size: 16px;
+    font-family: roboto-light;
+}
+#actors{
+    font-size: 16px;
+    font-family: roboto-med;
+}
+#Extra-details{
+    font-size: 16px;
+
+}
+#SearchBtn{
+    color: #ffffff;
+    background-color: #6A24B2;
+    transition: all  0.3s ;
+    
+}
+#SearchBtn:hover{
+    color: #7225c1;
+    background-color:transparent;
+    border: 1px solid  #7225c1;
+}
+#alert-text{
+    color: red;
+}
+.hide{
+   
+   display: none;
+}
+.show{
+
+display: grid;
+}
+
+#loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    width: 100vw;
+    height: 100vh;
+    
+  }
+  #ErrorSec{
+display: flex;
+flex-direction: column;
+  justify-content:space-around;
+  align-items:center;
+  text-align: center;
+ 
+  
+
+ 
+    
+
+  }
+
+  /* footer section */
+ #Footer{
+ 
+   font-family: roboto-med;
+
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+
+
+ }
+ 
+ .socials i{
+    font-size: 23px;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  }
+  .socials .bi-linkedin{
+ 
+    transition: 0.3s;
+    cursor: pointer;
+  
+  }
+  .bi-download{
+    color: white;
+    font-size: 23px;
+
+  }
+ /* media queries */
+
+@media (max-width:991px) {
+
+    .hero-heading h1{
+     
+        text-align: center;
+     
+      
+    }
+    .left-sec{
+       
+        align-items:center;
+    }
+    
+}
+
+@media (max-width:398px) {
+
+    .hero-heading h1{
+        /* max-width: 350px; */
+        text-align: center;
+        font-size: 35px;
+      
+    }
+    .left-sec{
+       
+        align-items:center;
+    }
+    .card-body {
+        
+        font-size: 10px;
+        padding: 3px;
+    
+    }
+    #movieTitleP{
+        font-size: 16px;
+    
+    }
+    #plot{
+        font-size: 14px;
+      
+    }
+    #actors{
+        font-size: 13px;
+       
+    }
+    #Extra-details{
+        font-size: 13px;
+    
+    }
+    
+}
+@media (max-width:294px) {
+
+    .hero-heading h1{
+        /* max-width: 350px; */
+        text-align: center;
+        font-size: 28px;
+      
+    }
+    .left-sec{
+       
+        align-items:center;
+    }
+    #movieTitleP{
+        font-size: 16px;
+    
+    }
+    #plot{
+        font-size: 12px;
+      
+    }
+    #actors{
+        font-size: 11px;
+       
+    }
+    #Extra-details{
+        font-size: 11px;
+      
+    }
+    .card-body {
+        
+     
+        flex-direction: column;
+     
+    
+    }
+    
+}
