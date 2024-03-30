@@ -37,7 +37,7 @@ function getMovie() {
     else {
      
       const apiKey = "c42ea8c1";
-      const apiUrl = `http://www.omdbapi.com/?t=${wordInputField}&apikey=${apiKey}`;
+      const apiUrl = `https://www.omdbapi.com/?t=${wordInputField}&apikey=${apiKey}`;
       document.getElementById("loader").style.cssText = "display: flex; justify-content: center; align-items: center; width: 100%; height: 100%;  z-index: 9999;";
      
       fetch(apiUrl)
